@@ -1,4 +1,4 @@
-# Smart Meter / Switch KWS-303L ( Modbus-RTU / RS-485 )
+# Smart Meter / Switch KWS-303L ( Modbus / Modbus - RTU / RS-485 )
 
 ## Review
 My review of this device is [here](https://alexey.baldin.space/hobby/home-automation/smart-switch-kws-303l)
@@ -13,7 +13,7 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 | A	          | red wire from RS 485 connector    |
 | B	          | black wire from RS 485 connector  |
  
-## Holiding registers
+## Holding registers - Modbus commands
 
 | Register	| Description	                | Example               | Gain |
 |----------| ----------------------------|-----------------------|------|
