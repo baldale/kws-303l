@@ -19,14 +19,14 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 |----------| ----------------------------|-----------------------|------|
 | 1	       | Rated voltage (V)(220V)	    | 220V(Fixed) => 22000  | 100  |
 | 2	       | Rated current (A) (40A)	    | 40A(Fixed) => 4000    | 100  |
-| 14	      | Active Voltage (V)	         | 229.6 => 22960        | 100  |
+| 14	      | Active Voltage (V)	         | 229.6V => 22960       | 100  |
 | 18	      | Active Amperage (A)	        | 0.012A => 12          | 1000 |
 | 26	      | Active Power (W)	           | 3.12W=> 312           | 10   |
 | 34	      | ??                          |                       | 		   |
 | 42	      | ??	                         | 	                     |      |
 | 48	      | Power Factor	               | 0.99 =>990            | 1000 |
 | 51	      | Active Frequency (Hz)	      | 50Hz => 5000          | 100  |
-| 55	      | Consumed Energy (Kw)	       | 5.5Kw => 5500         | 1000 |
+| 55	      | Consumed Energy (kWh)	      | 5.5kWh => 5500        | 1000 |
 | 60	      | Active Temperature (Co)	    | 25                    | 1    |
 | 61	      | Timing (minutes)	           | 100 => 100            | 1    |
 | 63	      | Switch on / off	relay       | On/Off => 1 / 0       | –    |
