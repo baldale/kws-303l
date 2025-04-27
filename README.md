@@ -18,7 +18,7 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 | Register	| Description	                | Example               | Gain |
 |----------| ----------------------------|-----------------------|------|
 | 1	       | Rated voltage (V)(220V)	    | 220V(Fixed) => 22000  | 100  |
-| 2	       | Rated current (A) (40V)	    | 40A(Fixed) => 4000    | 100  |
+| 2	       | Rated current (A) (40A)	    | 40A(Fixed) => 4000    | 100  |
 | 14	      | Active Voltage (V)	         | 229.6 => 22960        | 100  |
 | 18	      | Active Amperage (A)	        | 0.012A => 12          | 1000 |
 | 26	      | Active Power (W)	           | 3.12W=> 312           | 10   |
@@ -29,7 +29,7 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 | 55	      | Consumed Energy (Kw)	       | 5.5Kw => 5500         | 1000 |
 | 60	      | Active Temperature (Co)	    | 25                    | 1    |
 | 61	      | Timing (minutes)	           | 100 => 100            | 1    |
-| 63	      | Switch on / off	            | On/Off => 1 / 0       | –    |
+| 63	      | Switch on / off	relay       | On/Off => 1 / 0       | –    |
 | 64	      | Over Voltage Limit (V)      | 250V => 2500          | 10   |
 | 65	      | Under Voltage Limit (V)	    | 85V => 850            | 10   |
 | 66	      | Over Amperage Limit (A)	    | 26A => 260            | 10   |
