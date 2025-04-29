@@ -21,7 +21,7 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 | 2	       | Rated current (A) (40A)	    | 40A(Fixed) => 4000    | 100  |
 | 14	      | Active Voltage (V)	         | 229.6V => 22960       | 100  |
 | 18	      | Active Amperage (A)	        | 0.012A => 12          | 1000 |
-| 26	      | Active Power (W)	           | 3.12W=> 312           | 10   |
+| 26	      | Active Power (W)	           | 3.12W=> 312           | 100  |
 | 34	      | ??                          |                       | 		   |
 | 42	      | ??	                         | 	                     |      |
 | 48	      | Power Factor	               | 0.99 =>990            | 1000 |
