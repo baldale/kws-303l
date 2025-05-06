@@ -35,7 +35,7 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 | 66	      | Over Amperage Limit (A)	    | 26A => 260            | 10   |
 | 67	      | Over Power Limit (W)	       | 11W => 110            | 10   |
 | 71	      | Back Light time (minutes)	  | 6                     | 1    |
-| 72	      | Over Temperature Limit (Co)	| 51 => 510             | 10   |
+| 72	      | Over Temperature Limit (Co)	| 50                    | 1    |
 | 74	      | Over Energy Limit (kWh)	    | 12kWh=>1200           | 100  |
 | 81	      | Screen Rotation	            | Normal/Rotated => 1/0 | –    |
 | 82	      | Black Light  %              | 80	                   | 1    |
