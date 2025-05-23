@@ -5,37 +5,39 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 
 ## General setup
 
-| Property	   | Value                             |
+| Property    | Value                             |
 |-------------| ----------------------------------|
 | Baud rate   | 9600                              |
-| Parity	     | even                              |
+| Parity      | none                              |
 | Stop bits   | 1                                 |
-| A	          | red wire from RS 485 connector    |
-| B	          | black wire from RS 485 connector  |
+| A           | red wire from RS 485 connector    |
+| B           | black wire from RS 485 connector  |
  
 ## Holding registers - Modbus commands
 
-| Register	| Description	                | Example               | Gain |
-|----------| ----------------------------|-----------------------|------|
-| 1	       | Rated voltage (V)(220V)	    | 220V(Fixed) => 22000  | 100  |
-| 2	       | Rated current (A) (40A)	    | 40A(Fixed) => 4000    | 100  |
-| 14	      | Active Voltage (V)	         | 229.6V => 22960       | 100  |
-| 18	      | Active Amperage (A)	        | 0.012A => 12          | 1000 |
-| 26	      | Active Power (W)	           | 3.12W=> 312           | 100  |
-| 34	      | ??                          |                       | 		   |
-| 42	      | ??	                         | 	                     |      |
-| 48	      | Power Factor	               | 0.99 =>990            | 1000 |
-| 51	      | Active Frequency (Hz)	      | 50Hz => 5000          | 100  |
-| 55	      | Consumed Energy (kWh)	      | 5.5kWh => 5500        | 1000 |
-| 60	      | Active Temperature (Co)	    | 25                    | 1    |
-| 61	      | Timing (minutes)	           | 100 => 100            | 1    |
-| 63	      | Switch on / off	relay       | On/Off => 1 / 0       | –    |
-| 64	      | Over Voltage Limit (V)      | 250V => 2500          | 10   |
-| 65	      | Under Voltage Limit (V)	    | 85V => 850            | 10   |
-| 66	      | Over Amperage Limit (A)	    | 26A => 260            | 10   |
-| 67	      | Over Power Limit (W)	       | 11W => 110            | 10   |
-| 71	      | Back Light time (minutes)	  | 6                     | 1    |
-| 72	      | Over Temperature Limit (Co)	| 50                    | 1    |
-| 74	      | Over Energy Limit (kWh)	    | 12kWh=>1200           | 100  |
-| 81	      | Screen Rotation	            | Normal/Rotated => 1/0 | –    |
-| 82	      | Black Light  %              | 80	                   | 1    |
+| Register | Description                                 | R/W | Bytes | Example               | Gain |
+|----------| --------------------------------------------|-----|-------|-----------------------|------|
+| 0        | Connection Command                          | R   |       |                       |      |
+| 1        | Rated voltage (V)(220V)                     | R   |       | 220V(Fixed) => 22000  | 100  |
+| 2        | Rated current (A) (40A)                     | R   |       | 40A(Fixed) => 4000    | 100  |
+| 5        | Hardware version lower bits (display board) | R   | 2     | V0.8                  |      |
+| 14       | Active Voltage (V)                          | R   | 2     | 229.6V => 22960       | 100  |
+| 18       | Active Amperage (A)                         | R   |       | 0.012A => 12          | 1000 |
+| 26       | Active Power (W)                            | R   |       | 3.12W=> 312           | 100  |
+| 34       | ??                                          | R   |       |                       |      |
+| 42       | ??                                          | R   |       |                       |      |
+| 48       | Power Factor                                | R   |       | 0.99 =>990            | 1000 |
+| 51       | Active Frequency (Hz)                       | R   |       | 50Hz => 5000          | 100  |
+| 55       | Consumed Energy (kWh)                       | R   |       | 5.5kWh => 5500        | 1000 |
+| 60       | Active Temperature (Co)                     | R   |       | 25                    | 1    |
+| 61       | Timing (minutes)                            | R   |       | 100 => 100            | 1    |
+| 63       | Switch on / off relay                       | R   |       | On/Off => 1 / 0       | –    |
+| 64       | Over Voltage Limit (V)                      | R   |       | 250V => 2500          | 10   |
+| 65       | Under Voltage Limit (V)                     | R   |       | 85V => 850            | 10   |
+| 66       | Over Amperage Limit (A)                     | R   |       | 26A => 260            | 10   |
+| 67       | Over Power Limit (W)                        | R   |       | 11W => 110            | 10   |
+| 71       | Back Light time (minutes)                   | R   |       | 6                     | 1    |
+| 72       | Over Temperature Limit (Co)                 | R   |       | 50                    | 1    |
+| 74       | Over Energy Limit (kWh)                     | R   |       | 12kWh=>1200           | 100  |
+| 81       | Screen Rotation                             | R   |       | Normal/Rotated => 1/0 | –    |
+| 82       | Black Light  %                              | R   |       | 80                    | 1    |
