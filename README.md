@@ -41,3 +41,8 @@ My review of this device is [here](https://alexey.baldin.space/hobby/home-automa
 | 74       | Over Energy Limit (kWh)                     | R   |       | 12kWh=>1200           | 100  |
 | 81       | Screen Rotation                             | R   |       | Normal/Rotated => 1/0 | –    |
 | 82       | Black Light  %                              | R   |       | 80                    | 1    |
+
+
+## Official protocl description
+
+![KWS-303L](img/kws-303l.jpeg?raw=true "KWS-303L")
